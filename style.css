@@ -50,10 +50,18 @@ h1:hover {
     --container-background-color:#222;
 }
 input[type="button"] {
+    width: 120px;
+    height: 30px;
     font-weight: bolder;
-    /* color: var(--primary-text-color);
-    background-color:var(--secondary-text-color); */
     font-family: sans-serif ;
+    transition:0.3s linear;
+}
+input[type="button"]:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transform: translateY(-5px);
+    transform: scaleX(20px);
 }
 .options {
     text-align: right;
