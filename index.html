@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Natural Diasters</h1>
+      <div class="heading">
+        <div class="options">
+          <input type="button" value="Dark" onclick="dark()" />
+          <input type="button" value="White" onclick="white()" />
+        </div>
+      </div>
+      <div class="item">
+        <h2>Tsunami</h2>
+        <p>
+          Tsunamis are giant waves caused by earthquakes or volcanic eruptions
+          under the sea. Out in the depths of the ocean, tsunami waves do not
+          dramatically increase in height. But as the waves travel inland, they
+          build up to higher and higher heights as the depth of the ocean
+          decreases. The speed of tsunami waves depends on ocean depth rather
+          than the distance from the source of the wave. Tsunami waves may
+          travel as fast as jet planes over deep waters, only slowing down when
+          reaching shallow waters. While tsunamis are often referred to as tidal
+          waves, this name is discouraged by oceanographers because tides have
+          little to do with these giant waves.
+        </p>
+      </div>
+      <div class="item">
+        <h2>Floods</h2>
+        <p>
+          Floods are the most frequent type of natural disaster and occur when
+          an overflow of water submerges land that is usually dry. Floods are
+          often caused by heavy rainfall, rapid snowmelt or a storm surge from a
+          tropical cyclone or tsunami in coastal areas. Floods can cause
+          widespread devastation, resulting in loss of life and damages to
+          personal property and critical public health infrastructure. Between
+          1998-2017, floods affected more than 2 billion people worldwide.
+          People who live in floodplains or non-resistant buildings, or lack
+          warning systems and awareness of flooding hazard, are most vulnerable
+          to floods.
+        </p>
+      </div>
+      <div class="item">
+        <h2>Drought</h2>
+        <p>
+          Drought is a prolonged dry period in the natural climate cycle that
+          can occur anywhere in the world. It is a slow-onset disaster
+          characterized by the lack of precipitation, resulting in a water
+          shortage. Drought can have a serious impact on health, agriculture,
+          economies, energy and the environment. An estimated 55 million people
+          globally are affected by droughts every year, and they are the most
+          serious hazard to livestock and crops in nearly every part of the
+          world. Drought threatens people’s livelihoods, increases the risk of
+          disease and death, and fuels mass migration. Water scarcity impacts
+          40% of the world’s population, and as many as 700 million people are
+          at-risk of being displaced as a result of drought by 2030.
+        </p>
+      </div>
+      <div class="item">
+        <h2>Landslide</h2>
+        <p>
+          Landslides are more widespread than any other geological event, and
+          can occur anywhere in the world. They occur when large masses of soil,
+          rocks or debris move down a slope due to a natural phenomenon or human
+          activity. Mudslides or debris flows are also a common type of
+          fast-moving landslide. Landslides can accompany heavy rains or follow
+          droughts, earthquakes or volcanic eruptions. Areas most vulnerable to
+          landslides include: steep terrain, including areas at the bottom of
+          canyons; land previously burned by wildfires; land that has been
+          modified due to human activity, such as deforestation or construction;
+          channels along a stream or river; any area were surface runoff is
+          directed or land is heavily saturated. Between 1998-2017, landslides
+          affected an estimated 4.8 million people and cause more than 18 000
+          deaths. Climate change and rising temperatures are expected to trigger
+          more landslides, especially in mountainous areas with snow and ice. As
+          permafrost melts, rocky slopes can become more unstable resulting in a
+          landslide.
+        </p>
+      </div>
+    </div>
+    <script>
+      const dark = () => {
+        document.body.classList.add("dark");
+        const h1 = document.getElementsByTagName("h1");
+        h1.innerText = "Heleoeoeoeoeo";
+      };
+      const white = () => {
+        document.body.classList.remove("dark");
+      };
+    </script>
+  </body>
+</html>
